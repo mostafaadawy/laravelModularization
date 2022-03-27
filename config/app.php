@@ -1,5 +1,7 @@
 <?php
 
+use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
+
 return [
 
     /*
@@ -174,6 +176,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        Dashboard\Providers\RouteServiceProvider::class,
+
 
     ],
 
