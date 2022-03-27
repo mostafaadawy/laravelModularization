@@ -23,6 +23,7 @@ class DashboardServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        
+        // pathing path and namespace
+        $this->loadViewsFrom(base_path('Dashboard/views'),'dashboard');
     }
 }
