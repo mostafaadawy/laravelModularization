@@ -1,1 +1,1 @@
-return view('dashboard::sites.index')
+foo
